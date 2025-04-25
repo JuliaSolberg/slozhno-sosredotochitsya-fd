@@ -10,8 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px);*/
-  padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px) 0px var(--page-horizontal-padding, 10px);
+  padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px);
+  /*padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px) 0px var(--page-horizontal-padding, 10px);*/
   font-family: var(--main-font, sans-serif);
   font-size: var(--main-font-size, 18px);
   font-weight: normal;
