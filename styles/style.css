@@ -10,8 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px);*/
-  padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px) 0px var(--page-horizontal-padding, 10px);
+  padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px);
+  /*padding: var(--page-vertical-padding, 10px) var(--page-horizontal-padding, 10px) 0px var(--page-horizontal-padding, 10px);*/
   font-family: var(--main-font, sans-serif);
   font-size: var(--main-font-size, 18px);
   font-weight: normal;
@@ -298,7 +298,7 @@
     grid-column: 2 / span 2;
   }
 
-  .middle {
+  .section-content-special-layout {
     grid-column: 1 / span 3;
   }
 
@@ -360,7 +360,7 @@
     column-gap: 20px;
   }
 
-  .middle {
+  .section-content-special-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
