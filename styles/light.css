@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-main-header-color: #FFC2E6;
-  --accent-main-header-shadow-color: #FF8DCB;
+  --accent-main-header-shadow-color: #FF0070;
   --corner-color: #353430;
   --pale-color: rgba(53, 52, 48, 0.4);
   --theme-font-color: #353430;
@@ -42,7 +42,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-main-header-color: #FFC2E6;
-    --accent-main-header-shadow-color: #FF8DCB;
+    --accent-main-header-shadow-color: #FF0070;  /*#FF8DCB*/
     --corner-color: #353430;
     --pale-color: rgba(53, 52, 48, 0.4);
     --theme-font-color: #353430;
